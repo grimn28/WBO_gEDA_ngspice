@@ -1,0 +1,262 @@
+
+Circuit: * gnetlist -g spice-sdb -o spice.net wbo.sch
+
+Warning: Model issue on line 443 :
+  .model mmbfj202 njf vto=-3.95 beta=0.00198 lambda=0.0052 is=1.1937e-12 i ...
+unrecognized parameter (isr) - ignored
+unrecognized parameter (nr) - ignored
+unrecognized parameter (alpha) - ignored
+unrecognized parameter (vk) - ignored
+unrecognized parameter (m) - ignored
+unrecognized parameter (betatce) - ignored
+unrecognized parameter (vtotc) - ignored
+Warning: Model issue on line 470 :
+  .model d1n4148 d(is=5.84n n=1.94 rs=.7017 ikf=44.17m xti=3 eg=1.11 cjo=. ...
+unrecognized parameter (isr) - ignored
+unrecognized parameter (nr) - ignored
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+No. of Data Columns : 208  
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   3.1623E-07 Note: One successful gmin step
+Trying gmin =   5.6234E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: Dynamic gmin stepping completed
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+rect                               5.18627e-07
+out                                 0.00341726
+gate                               6.82554e-06
+2                                  2.02445e-05
+x1.104                                 26.5318
+x1.105                                 26.2637
+x1.108                                 26.5319
+x1.100                               0.0111715
+x1.33                                  11.9966
+x1.34                              0.000931225
+x1.101                               0.0111751
+x1.35                                  12.0034
+x1.36                              0.000930995
+x1.84                                 0.687034
+x1.37                                 0.999997
+x1.38                                 0.687036
+x1.39                                 0.653873
+x1.40                               0.00516321
+x1.41                               0.00341795
+x1.42                                  1.47572
+x1.43                                  1.47652
+x1.44                                  1.47572
+x1.45                               0.00516321
+x1.46                               0.00167312
+x1.47                               0.00167312
+x1.48                                  11.9999
++12v                                        12
+-12v                                       -12
+x1.49                                 -11.9999
+x1.50                                 0.595545
+x1.51                                 0.595545
+x1.52                                      -12
+x1.53                                       12
+x1.54                                 0.714654
+x1.55                                 0.714654
+x1.56                               0.00112191
+in                                  0.00112191
+x1.57                              0.000922013
+x1.58                                       12
+x1.59                                      -12
+x1.60                               0.00102196
+x1.61                               0.00102196
+x1.62                               0.00119988
+x1.63                              -0.00119988
+x1.64                              1.02186e-07
+x1.65                                    0.001
+ip                                       0.001
+x1.66                               0.00112191
+x1.67                              0.000922013
+x1.68                              0.000892016
+x1.69                                        0
+x1.70                                        0
+x1.71                                    -10.8
+x1.72                               0.00112201
+x1.73                                    -10.8
+x1.74                               0.00112191
+x1.75                                 0.777529
+x1.76                                -0.665521
+x1.77                              0.000922013
+x1.78                                  3.27652
+x1.79                                  10.9902
+x1.80                                       12
+x1.81                                       -9
+x1.82                              3.13449e-07
+x1.83                              1.34502e-08
+x1.85                                 0.655036
+x1.87                                 0.455036
+x1.88                                  29.9999
+x1.89                                 -29.9999
+x1.90                                 -14.9999
+x1.91                                  14.9999
+x1.92                              4.48347e-09
+x1.93                              4.48347e-09
+x1.94                                 -11.9949
+x1.95                                       12
+x1.96                                      -11
+x1.97                                      -11
+x1.98                                  11.2859
+x1.99                                      -11
+x1.102                                 26.5474
+x1.103                                 26.5396
+x1.106                                 26.5475
+x1.107                                 26.5397
+x1.109                                 145.809
+x1.110                                 15.7809
+x1.111                                     300
+x1.112                                 11.9946
+x1.113                                -11.7624
+x1.114                                -11.9998
+x1.115                                  157.85
+x1.116                                 15.7004
+x1.117                                 1313.03
+x1.118                                      15
+x1.119                                     -15
+x1.120                                 71.9675
+x1.121                                 3.78094
+x1.122                                 15.7809
+x1.123                                -11.9981
+x1.124                                  157.85
+x1.125                                 15.7004
+x1.126                                 1313.03
+x1.127                                      15
+x1.128                                     -15
+x1.129                                 71.9675
+x1.130                                0.655101
+x1.131                              -0.0468994
+x1.132                                      12
+x1.133                                0.615036
+x1.134                               -0.770686
+x1.135                              0.00342135
+x1.136                                0.777519
+x1.137                               -0.770676
+x1.138                             -0.00342135
+x1.139                              -0.0561293
+x1.140                              0.00342135
+x1.141                              -0.0595506
+x1.142                                0.062972
+x1.143                              0.00342135
+x1.144                                 2.04387
+x1.145                                -1.73703
+x1.146                                0.655099
+x1.147                              -0.0561293
+x1.148                              0.00342135
+x1.149                                0.062972
+x1.150                               0.0830077
+x1.151                                0.655101
+x1.152                              -0.0448994
+x1.153                                 25.6376
+x1.154                                  26.483
+x1.155                                 26.9551
+x1.156                              -0.0448994
+x1.157                                0.655101
+x1.158                              -0.0448994
+3                                        11.11
+x1.159                                 10.3238
+x1.160                                   11.11
+x1.161                               3.111e-06
+x1.162                               -0.999997
+x1.163                                       0
+1                                   0.00341726
+b.x1.b75#branch                   -1.37407e-09
+b.x1.b56#branch                   -1.11751e-08
+b.x1.b53#branch                   -1.11715e-08
+e.x1.e96#branch                              0
+e.x1.e95#branch                    9.99994e-10
+e.x1.e94#branch                   -8.45378e-07
+e.x1.e93#branch                   -2.47922e-05
+e.x1.e84#branch                   -1.31522e-13
+e.x1.e83#branch                     1.2468e-13
+e.x1.e81#branch                   -1.02641e-14
+e.x1.e80#branch                    6.98236e-11
+e.x1.e79#branch                    6.95167e-11
+e.x1.e76#branch                   -1.37407e-06
+e.x1.e69#branch                      0.0223204
+e.x1.e68#branch                    -0.00562678
+e.x1.e67#branch                      -0.129726
+e.x1.e66#branch                   -1.57809e-05
+e.x1.e65#branch                    -0.00562678
+e.x1.e64#branch                      -0.129726
+e.x1.e63#branch                   -0.000157809
+e.x1.e55#branch                   -1.20034e-05
+e.x1.e54#branch                   -9.30995e-10
+e.x1.e52#branch                   -1.19966e-05
+e.x1.e51#branch                   -9.31225e-10
+e.x1.e50#branch                   -9.99997e-10
+e.x1.e49#branch                    2.99999e-11
+e.x1.e48#branch                   -2.99999e-11
+e.x1.e20#branch                   -2.99999e-11
+e.x1.e18#branch                   -9.99498e-08
+e.x1.e17#branch                    9.99488e-08
+e.x1.e14#branch                   -1.45403e-12
+e.x1.e12#branch                   -2.06352e-11
+e.x1.e11#branch                              0
+e.x1.e10#branch                              0
+e.x1.e7#branch                    -1.02186e-09
+e.x1.e6#branch                     1.19988e-05
+e.x1.e5#branch                    -1.19988e-05
+e.x1.e4#branch                     -2.0606e-11
+e.x1.e3#branch                     -0.00647709
+e.x1.e2#branch                      0.00647561
+v1#branch                          -0.00667774
+v2#branch                          -0.00667751
+v.x1.v117#branch                    -3.111e-15
+v.x1.v116#branch                   5.03844e-08
+v.x1.v115#branch                  -4.48994e-08
+v.x1.v114#branch                   8.30077e-14
+v.x1.v113#branch                  -8.45423e-07
+v.x1.v112#branch                  -4.48994e-08
+v.x1.v80#branch                    5.95496e-14
+v.x1.v79#branch                    9.96613e-12
+v.x1.v78#branch                     1.0273e-11
+v.x1.v76#branch                    1.98911e-06
+v.x1.v75#branch                    3.60441e-11
+v.x1.v74#branch                    4.80359e-11
+v.x1.v72#branch                   -4.68994e-08
+v.x1.v71#branch                       0.135493
+v.x1.v70#branch                    6.15014e-11
+v.x1.v67#branch                       0.135494
+v.x1.v66#branch                    6.15014e-11
+v.x1.v63#branch                     -0.0002843
+v.x1.v52#branch                    9.99997e-13
+v.x1.v51#branch                         -2e-12
+v.x1.v50#branch                              0
+v.x1.v49#branch                              0
+v.x1.v23#branch                    2.44414e-06
+v.x1.v21#branch                    0.000799997
+v.x1.v18#branch                              0
+
+
+No. of Data Rows : 1000008
+CPU time since last call: 101.408 seconds.
+
+Total CPU time: 101.408 seconds.
+
+Total DRAM available = 7932.394531 MB.
+DRAM currently available = 2721.011719 MB.
+Total ngspice program size = 16.889648 MB.
+Resident set size = 2.429688 MB.
+Shared ngspice pages = 2.025391 MB.
+Text (code) pages = 1.597656 MB.
+Stack = 0 bytes.
+Library pages = 522.000 kB.
+
